@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<style>
+    body { font-family: Arial; margin: 0; padding: 0; background:rgb(112, 117, 112); }
+    nav { background: #333; 
+        padding: 20px; 
+        display: flex; 
+        gap: 30px;
+        justify-content: center;
+        position:fixed;
+        width: 100%;
+        top:0;
+     }
+    nav a {
+         color: white; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    nav #home{
+        text-decoration:underline;
+    }
+    .content { 
+    padding: 20px; 
+    background: rgb(146, 139, 139); 
+    margin: 100px 20px 20px 20px;
+    border-radius: 10px;
+    align-content: center;
+     }
+     .info{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        background: white;
+        margin: 100px; 
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+     }
+     div h4{
+        border: 2px;
+        padding: 5px;
+     }
+     div h4:hover{
+        
+        padding: 10px;
+        background-color:rgb(75, 64, 64);
+        color: white;
+
+     }
+</style>
+</head>
+
+<body>
+<nav>
+    <a href="home.html"id="home" >Home</a>
+    <a href="about.html" id="about">About Me</a>
+    <a href="contact.html"id="contact">Contact Me</a>
+    <a href="gallery.html" id="gallery">My Gallery</a>
+</nav>
+
+<div class="content">
+    <h2><marquee behavior="scroll"> Welcome to My Website</marquee></h2>
+</div>
+<div class="info">
+    <h1>Welcome</h1>
+    <h4>Home</h4>
+    <h4>About Me</h4>
+    <h4>Contact</h4>
+    <h4>Gallery</h4>
+</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<html>
+<head>
+    <style>
+        .container {
+            display: flex;
+            background-color: DodgerBlue;
+            flex-direction: row;       /* default */
+            flex-direction: row-reverse;
+            height: 500px;/*
+            flex-direction: column;
+            flex-direction: column-reverse;
+            justify-content: flex-start;  */
+            justify-content: center; /* 
+            justify-content: flex-end;
+            justify-content: space-between;
+            justify-content: space-around;
+            justify-content: space-evenly;
+            align-items: stretch;     /* default */
+            align-items: center;/*
+            align-items: flex-start;
+            align-items: flex-end;
+            align-items: baseline;*/
+            flex-wrap: wrap;
+        }
+        .container div{
+            background-color: #f1f1f1;
+            margin: 10px;
+            padding: 20px;
+        font-size: 30px;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+    </div>
+</body>
+</html>
